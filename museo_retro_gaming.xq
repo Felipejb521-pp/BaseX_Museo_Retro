@@ -1,4 +1,4 @@
-declare namespace file = "http://expath.org/ns/file";
+declare namespace file = "C:\Users\DAM1\Downloads\Escenario03\Escenario03";
 let $html :=
 
 <html lang="es">
@@ -8,23 +8,19 @@ let $html :=
     <body>
         <ul>
         {
-        for $x in doc("books.xml")/bookstore/book/title
+        <!--for $x in doc("books.xml")/bookstore/book/title
         order by $x
-        return <li>{$x}</li>
+        return <li>{$x}</li>-->
         }
         </ul>
         <ul>
         {
-        for $x in doc("books.xml")/bookstore/book/title
-        order by $x
-        return <li>{$x}</li>
+        
         }
         </ul>
         <ul>
         {
-        for $x in doc("books.xml")/bookstore/book/title
-        order by $x
-        return <li>{$x}</li>
+       
         }
         </ul>
     </body>
