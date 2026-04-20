@@ -1,1 +1,0 @@
-declare namespace file = "http://expath.org/ns/file";
