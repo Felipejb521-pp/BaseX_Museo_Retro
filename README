@@ -1,0 +1,5 @@
+El proyecto tiene un archivo museo_retro_gaming con extension .xq con estructura :
+   1 declare namespace file = " ";
+   2 let $html :=
+   3 HTML + xquery(consultas dentro de listas de HTML)
+   4 file : write(" " , $html)
